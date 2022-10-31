@@ -11,6 +11,7 @@ import {
 import { fetchStats } from "../src/fetchers/stats-fetcher.js";
 import { isLocaleAvailable } from "../src/translations.js";
 
+// load env file
 dotenv.config();
 
 export default async (req, res) => {
